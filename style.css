@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 100px;
+    /* background-color: red; */
+    overflow: hidden;
+}
+h1 span{
+    display: inline-block;
+}
